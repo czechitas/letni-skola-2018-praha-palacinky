@@ -104,3 +104,8 @@
   position: absolute;
   opacity: 0;
 }
+
+.recept {}
+.recept img {
+  width: 100%;
+}

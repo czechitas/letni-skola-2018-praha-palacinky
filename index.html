@@ -24,7 +24,7 @@
 
 <body>
 
-  <nav class="site-header sticky-top py-1">
+  <nav class="site-header py-1">
     <div class="container d-flex flex-column flex-md-row justify-content-between">
       <a class="py-2" href="#">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
@@ -98,7 +98,7 @@
         <div>
           <div><img src="suroviny/MLEKO.svg" height="75" /></div>
           <strong>Mléko</strong>
-          <input type="checkbox" name="suroviny" value="MLEKO"/>
+          <input type="checkbox" name="suroviny" value="mleko"/>
         </div>
       </label>
       <label class="surovina d-flex justify-content-center align-items-center p-3 m-2 text-center">
@@ -181,48 +181,581 @@
     <h2>Recepty pro tebe</h2>
   </div>
 
+  <div class="mx-5">
+    <div class="recepty-nic alert alert-warning" style="display: none">
+      <strong>Zajdi si do Kauflandu</strong>
+    </div>
+  
+    <div class="recepty-nenalezeno alert alert-warning" style="display: none">
+      <strong>Nic nenalezeno, zkus něco jiného, nebo to vyhoď do koše</strong>
+    </div>
+  </div>
+
+
   <div class="row">
 
-    <div class="col-md-6">
-      <div class="bg-dark my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      <div class="col-md-6">
+          <article id="recept-1" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/1.jpg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Hokajda Polévka</h2>
+                  <h3>Nákupní seznam: </h3>
+                  <ul>
+                      <li>1 hokkaido dýně</li>
+                      <li>3 brambory</li>
+                      <li>2 mrkve</li>
+                      <li>mléko</li>
+                  </ul>
+                  <p>
+                      Dýni rozpůlíme, vydlabeme měkkou dužinu a tvrdší část pod slupkou i slupku nakrájíme na kostky. Na kostky nakrájíme též mrkve
+                      a brambory. Vše dáme do hrnce (Já používám pětilitrový.), zalijeme vodou tak, aby byla zelenina zatopená
+                      a dáme vařit. Když jsou všechny druhy zeleniny měkké, směs rozmixujeme do krémové konzistence a přilijeme
+                      dle hustoty a chuti mléko. Dochutíme muškátovým oříškem, solí a můžeme přidat i jiné koření, pokud je třeba.
+                      Nakonec můžeme dozdobit smetanou ke šlehání a podáváme.
+                  </p>
+              </div>
+          </article>
       </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      
+      <div class="col-md-6">
+          <article id="recept-2" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/2.jpg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Vajíčková pomázanka</h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>50 g másla</li>
+                      <li>2 ks (obdélníčky) taveného sýra (např. Smetanito)</li>
+                      <li>4 vejce</li>
+                      <li>5 plátků šunky</li>
+                      <li>1 menší cibule</li>
+                      <li>sůl, pepř</li>
+                  </ul>
+                  <p>
+                      Máslo necháme změknout a smícháme se Smetanitem. Vejce uvaříme, oloupeme, rozkrojíme a vyndáme žloutky, které vymícháme se
+                      směsí másla a taveného sýra dohladka. Bílky, šunku a cibulku nakrájíme na kostičky a lehce zamícháme do "žloutkového
+                      krému". Teď už jen dochutíme solí a pepřem a máme hotovo!
+      
+                  </p>
+      
+              </div>
+          </article>
       </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      
+      <div class="col-md-6">
+          <article id="recept-3" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/3.jpg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Desetiminutové pizzové preclíky </h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>15 středních preclíků</li>
+                      <li>15 kousků salámků</li>
+                      <li>rajčatový protlak</li>
+                      <li>200 g strouhaného sýru </li>
+                  </ul>
+                  <p>
+                      Předehřejte na 180 C. Připravte si papír na pečení.Preclíky si na ten papír rovnoměrně rozložte.Každý kousek salámku položte
+                      na každý preclík, poté na každý z nich dejte lžíci protlaku.A poté i sýr. Pečte 8-12 minut dokud sýr nezačne
+                      bublat. Přejeme dobré pochutnání!
+                  </p>
+              </div>
+          </article>
       </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="bg-primary my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      
+      <div class="col-md-6">
+          <article id="recept-4" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/4.jpg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Houskové knedlíky s vajíčkem</h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>cibule (šalotka je skvělá volba)</li>
+                      <li>máslo (přepuštěné máslo)</li>
+                      <li>houskové knedlíky</li>
+                      <li>čerstvá vejce</li>
+                      <li>špetka soli</li>
+                      <li>špetka pepře</li>
+                      <li>pažitka</li>
+                  </ul>
+                  <p>
+                      Nakrájíme si cibuli a na oleji ji osmažíme. Knedlík rozkrájíme na kostičky a dáme je na rozpálenou cibuli na oleji opéct.Vajíčka
+                      si rozklepneme a osolíme je a mírně rozkvedláme. Knedlíky zalijeme vajíčkem a částečně mícháme, tak 10 minut.
+                      necháme 3 minutky stát a potom už je hotovo. Když nandaváme na talíře, můžeme knedlíky posypat pažitkou či
+                      opepřit.
+                  </p>
+              </div>
+          </article>
       </div>
-    </div>
-
+      
+      <div class="col-md-6">
+          <article id="recept-5" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/5.jpeg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Sendvič s vajíčkem</h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>2 plátky chleba</li>
+                      <li>1 vejce</li>
+                      <li>rukola</li>
+                      <li>plátky rajčete</li>
+                      <li>plátky salátové okurky</li>
+                      <li>sůl</li>
+                      <li>čerstvě mletý pepř</li>
+                      <li>čerstvá bazalka</li>
+                  </ul>
+                  <p>
+                      Troubu předehřejeme na 200 stupňů. Na pečící papír dáme plátky chleba (můžeme odkrájet kůrku). Chleba necháme v troubě 5
+                      minut a vytáhneme. Na pečící papír rozklepneme vajíčko a dáme do trouby. Pečeme 6 minut (bílek musí být tuhý
+                      a žloutek tekutý).Na chleba dáme opranou rukolu, plátky rajčete a okurky.Vajíčko opatrně předěláme z pečícího
+                      papíru a přeneseme na sendvič.Posypeme nasekanou bazalkou, osolíme a opepříme. Můžeme podávat.
+      
+                  </p>
+              </div>
+          </article>
+      </div>
+      
+      <div class="col-md-6">
+          <article id="recept-6" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/6.jpg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Boloňské špagety</h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>500 g hovězího mletého masa (Lze použít i vepřové, ale jídlo je pak o dost tučnější.)</li>
+                      <li>1 cibule</li>
+                      <li>zhruba 4 rajčatové protlaky (Záleží, jakou hustotu máte rádi.)</li>
+                      <li>sůl, pepř a volitelné bylinky (např. bazalka nebo provensálské bylinky)</li>
+                      <li>lžíce prolisovaného česneku </li>
+                      <li>balíček špaget</li>
+                      <li>olej</li>
+                  </ul>
+                  <p>
+                      Začneme tím, že si dáme vařit vodu se solí a trochou oleje na špagety. Pak nakrájíme cibulku nadrobno a osmažíme dozlatova
+                      na oleji. Poté na ni přidáme mleté maso, zamícháme, přikryjeme pokličkou a chvilku podusíme (S občasným promícháním
+                      to vychází kolem 15 - 20 minut). Mezitím uvaříme špagety.Když už maso není syrové, zalijeme je rajčatovými
+                      protlaky a vodou podle toho, jak chceme mít omáčku hustou. Chvilku prohřejeme, přidáme česnek, sůl, pepř,
+                      bylinky a zamícháme.Podáváme posypané oblíbeným nastrouhaným sýrem, výborný je parmezán.
+                  </p>
+              </div>
+          </article>
+      </div>
+      
+      <div class="col-md-6">
+          <article id="recept-7" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/7.jpg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Toust se ztraceným vejcem</h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>1 plátek tmavého chleba</li>
+                      <li>1 čerstvé vejce</li>
+                      <li>1 lžíce octa</li>
+                      <li>1 plátek šunky</li>
+                      <li>1 plátek rajčete (vyřízněte ten největší, prostřední plátek, a zbytek rajčete bez okolků snězte)</li>
+                      <li>1 lžíce másla</li>
+                      <li>sůl a čerstvě mletý pepř</li>
+                  </ul>
+                  <p>
+                      V malém kastrůlku přiveďte vodu téměř k varu, osolte ji a přilijte lžíci octa. Jakmile se u dna začnou objevovat bublinky
+                      a voda bude téměř vřít, vyklepněte vajíčko do malé misky nebo hrnečku. Horkou vodu zamíchejte a roztočte
+                      vařečkou, špachtlí, nebo jiným nástrojem, a doprostřed víru opatrně vlijte vejce. Začněte stopovat 3 minuty.
+                      Nebojte se, že se vajíčko rozmetá na všechny strany. Pokud nenecháte vodu vařit klokotem, nemělo by se to
+                      stát, pouze se mu může vytvořit pár rozčepýřených bílkových ocásků. Nevylučuji ale, že část bílku se prostě
+                      rozpadne. To proto, že čím je vajíčko starší, tím víc je v něm řídké části bílku. O tu prostě přijdete, i
+                      když všechno děláte správně. Proto vždy volte co nejčerstvější vajíčka – v těch je větší proporce pevnějšího
+                      bílku, a tedy i menší ztráty. Po třech minutách mírného varu vajíčko opatrně vyjměte děrovanou naběračkou
+                      a nechte okapat na kuchyňské utěrce nebo prostě jen na talířku. V malé pánvi rozehřejte polovinu másla a
+                      do toustovače dejte opékat plátek pečiva. Na zpěněné máslo položte šunku, vedle rajče a poměrně zprudka opečte
+                      krátce a po obou stranách. Opečený toust potřete zbylým máslem. Položte na něj šunku, plátek rajčete a završte
+                      ztraceným vejcem. Osolte, opepřete a utíkejte s touhle krásou ke stolu. Předem upozorňuji, že rozříznutí
+                      ztraceného vejce má stejně uklidňující účinky jako praskání bublinkové fólie.
+                  </p>
+              </div>
+          </article>
+      </div>
+      
+      <div class="col-md-6">
+          <article id="recept-8" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/8.jpg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Ham and Eggs</h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>4 plátky šunky</li>
+                      <li>3 vejce</li>
+                      <li>máslo</li>
+                      <li>sůl</li>
+                      <li>pepř</li>
+                      <li>1 lžíce másla</li>
+                      <li>petrželová nať</li>
+                      <li>pažitka</li>
+                  </ul>
+                  <p>
+                      Na rozehřáté máslo položíme plátky šunky, které zlehka opečeme. Na opečenou šunku rozklepneme 3 vejce opatrně tak, aby se
+                      bílky nesmíchaly se žloutky. Lehce osolíme, opepříme. Jakmile začne bílek tuhnout vypneme a necháme na pánvi
+                      tzv. dojít. Dle chuti můžeme posypat nasekanou pažitkou, petrželkou, nebo chilli papričkou. Podáváme s křupavou
+                      bagetou.
+      
+                  </p>
+              </div>
+          </article>
+      </div>
+      
+      <div class="col-md-6">
+          <article id="recept-9" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/9.jpg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Polévka pro začátečníky</h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>Voda</li>
+                      <li>kostka zeleninového bujónu</li>
+                      <li>mražená zelenina do polévky</li>
+                      <li>1 vejce</li>
+                      <li>nudle nebo písmenka</li>
+                  </ul>
+                  <p>
+                      Do hrnce dáme vařit asi 1-1,2 litru vody, přidáme kostku zeleninového bujónu a necháme ho úplně rozpustit. Poté přidáme 1
+                      šálek mražené zeleniny a necháme vařit do změknutí. Polévku není třeba dochucovat, ale kdo má rád více slanější,
+                      může dosolit. Pro změnu chuti můžeme do vývaru se zeleninou přidat hrst nudlí, písmenek nebo jiných těstovin
+                      do polévky a vařit do jejich změknutí. Kdo nemá rád těstoviny, přidá do vývaru 1 vejce- zeleninu uvaříme
+                      do měkka a za stálého míchání pomalu vlijeme do polévky rozkvedlané vejce. Necháme chvilku povařit. Do vývaru
+                      se zeleninou lze dát kombinace obojího- nudle uvaříme do poloměkka a vlijeme rozkvedlané vejce. Necháme povařit.
+                  </p>
+              </div>
+          </article>
+      </div>
+      
+      <div class="col-md-6">
+          <article id="recept-10" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/10.jpg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Toust se ztraceným vejcem</h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>1 kg brambor</li>
+                      <li>limetka</li>
+                      <li>70 g másla, rozpuštěného</li>
+                      <li>1 lžička sladké mleté papriky</li>
+                      <li>špetka mletého chilli</li>
+                      <li>1 lžička limetkové šťávy</li>
+                      <li>špetka soli</li>
+                  </ul>
+                  <p>
+                      Do mísy dejte všechny přípravy kromě brambor. Ty nakrájejte na čtvrtky a dobře je promíchejte se směsí. Položte je na plech
+                      vyložený pečícím papírem na pečení a pečte asi 200 C. asi 30 minut.
+                  </p>
+              </div>
+          </article>
+      </div>
+      
+      <div class="col-md-6">
+          <article id="recept-11" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/11.jpg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Toust se ztraceným vejcem</h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>400g bílých fazolí</li>
+                      <li>citron</li>
+                      <li>2 lžíce olivový olej </li>
+                      <li>2 cukety</li>
+                      <li>10 cherry rajčátek </li>
+                      <li>bazalka</li>
+                  </ul>
+                  <p>
+                      Dvě cukety omyjte, překrojte a nakrájejte na kolečka. Poté ty bílé fazole z konzervy zceďte a vsypte do mísy. Citron pečlivě
+                      omyjte horkou vodou, osušte a přepulte. Na pánvi rozehřejte 2 lžíce olivového oleje, vsypte pokrájenou cuketu
+                      a dvě minuty opékejte. Přisypte 10 omytých cherry rajčátek a opékejte 2-3 minuty do změknutí. Zakápněte citronem,
+                      osolte a opepřete. Grilovanou zeleninu vsypte k fazolím, desetz lístků bazalky nakrájejte najemnou a vsypte
+                      k zelenině, zakápněte olivovým olejem, postouhněte citronovou kůrou a promíchejte. Před podáváním můžete
+                      vložit na půl hodiny do lednice, nebo salát jíst vlažný.
+      
+                  </p>
+              </div>
+          </article>
+      </div>
+      
+      <div class="col-md-6">
+          <article id="recept-12" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/12.jpg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Špagety aglio olio</h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>500 g špagety</li>
+                      <li>4 stroužek česnek</li>
+                      <li>sůl</li>
+                      <li>pepř mletý</li>
+                      <li>olivový olej </li>
+                      <li>bazalka</li>
+                      <li>150 g parmazán </li>
+                  </ul>
+                  <p>
+                      Špagety uvaříme podle návodu na obalu.Mezitím na pánvi rozehřejeme olivový olej, na kterém orestujeme plátky česneku..Špagety
+                      scedíme a rovnou vložíme na pánev s česnekem a feferonkou a krátce prohřejeme a smícháme dohromady.Jemně
+                      osolíme a opepříme.Pokud máme k dispozici čerstvou bazalku (či jiné oblíbené bylinky), přidáme též. Oheň
+                      vypneme a za stálého míchání vsypeme nastrouhaný parmazán.Hotové špagety aglio olio můžeme podle chuti posypat
+                      dalším sýrem.
+      
+                  </p>
+              </div>
+          </article>
+      </div>
+      
+      <div class="col-md-6">
+          <article id="recept-13" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/13.jpg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Kuřecí Řízek</h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>500 g kuřecího masa ( prsní nebo stehenní )</li>
+                      <li>sůl</li>
+                      <li>pepř</li>
+                      <li>hl.mouka</li>
+                      <li>strouhanka</li>
+                      <li>2 vajíčka</li>
+                      <li>olej na smažení</li>
+                  </ul>
+                  <p>
+                      Maso nakrájíme na plátky. Poté z obou stran osolíme a opepříme.Do tří hlubokých talířů si připravíme: hladkou mouku; dvě
+                      nevařená vajíčka bez skořápky , špetku soli + trocha pepře - to vše pořádně promícháme = strouhanka.Maso
+                      obalíme v prvním talíři, pak v druhém a nakonec ve třetím.Vždy vyrochníme a zaprášíme ze všech stran. Pro
+                      lepší konzistenci obalu je dobré postupovat tak, že obalíme v prvním, pak druhém, pak zase prvním, zase druhém
+                      a nakonec třetím talíři.Smažíme na pánvi v dostatečném množství oleje.
+      
+                  </p>
+              </div>
+          </article>
+      </div>
+      
+      <div class="col-md-6">
+          <article id="recept-14" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/14.jpg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Vepřový řízek</h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>500 g vepřové kýty (krkovička...)</li>
+                      <li>sůl</li>
+                      <li>pepř</li>
+                      <li>hl.mouka</li>
+                      <li>strouhanka</li>
+                      <li>2 vajíčka</li>
+                      <li>olej na smažení</li>
+                  </ul>
+                  <p>
+                      Maso nakrájíme na plátky. Položíme na prkénko a z obou stran naklepeme. Poté z obou stran osolíme a opepříme.Do tří hlubokých
+                      talířů si připravíme: hladkou mouku, dvě nevařená vajíčka bez skořápky + špetka soli + trocha pepře - to
+                      vše pořádně promícháme a přidáme strouhanku.Maso obalíme v prvním talíři, pak v druhém a nakonec ve třetím.
+                      Vždy vyrochníme a zaprášíme ze všech stran.Pro lepší konzistenci obalu je dobré postupovat tak, že obalíme
+                      v prvním, pak druhém, pak zase prvním, zase druhém a nakonec třetím talíři. Smažíme na pánvi v dostatečném
+                      množství oleje.
+      
+                  </p>
+              </div>
+          </article>
+      </div>
+      
+      <div class="col-md-6">
+          <article id="recept-15" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/15.jpg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Lehký Japonský koláč</h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>3 vajíčka</li>
+                      <li>120 g bílé čokolády </li>
+                      <li>120 g tvarohu</li>
+                  </ul>
+                  <p>
+                      Oddělíme si bílky od žloutků a předehřejeme troubu na 170 stupňů. Čokoládu si rozpustíme a počkáme, až vychladne. Poté ji
+                      přidáme do tvarohu, který by neměl být ledový. Dále přidáme žloutky a vše důkladně zamícháme. Dále si vyšleháme
+                      bílky na sníh a opět vše promícháme. Připravíme si pekáč a skleněnou misku na pečení s průměrem 15 cm. Potřebovat
+                      budeme i pečící papír. Jedna část bude kopírovat dno nádoby a další zase zakryje stěny. Celou směs vlijeme
+                      do nádoby a položíme na pekáč, který podlijeme vodou. Koláč se peče 15 minut na 170 stupňů a potom se nechá
+                      dojít dalších 15 minut ve vypnuté troubě. Nezapomeňte koláč dochutit moučkovým posypem a nechte si chutnat.
+      
+                  </p>
+              </div>
+          </article>
+      </div>
+      
+      <div class="col-md-6">
+          <article id="recept-16" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/16.jpg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Míchaná vejce</h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>3 velká vejce</li>
+                      <li>1 lžíce čerstvého másla</li>
+                      <li>sůl a čerstvě mletý pepř, pažitka</li>
+                  </ul>
+                  <p>
+                      Vejce vyklepněte do misky a promíchejte s trochou soli a pepře. Rozehřejte pánev se lžičkou másla.Vaječnou směs
+                      vlijte na pánev a širokou plochou je hrňte a promíchávejte od kraje pánve do středu; stačí půl
+                      minuty. Pánev stáhněte z ohně a vmíchejte zbylé máslo. Hned potom vejce přesuňte na teplý talíř
+                      a posypte pažitkou.
+      
+                  </p>
+              </div>
+          </article>
+      </div>
+      
+      <div class="col-md-6">
+          <article id="recept-17" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/17.png" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Cuketové placky</h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>1 cuketa</li>
+                      <li>2 stroužky česneku </li>
+                      <li>1/2 hrnku polohrubé mouky</li>
+                      <li>sůl, pepř </li>
+                  </ul>
+                  <p>
+                      Cuketu nastrouháme, posypeme solí a necháme odstát – pustí vodou, kterou následně slejeme, aby se placičky netrhaly. Přidáme
+                      2 stroužky vymáčknutého česneku, mouku, můžeme dopepřit a vše důkladně smícháme v jakési těsto netěsto. Uplácáme
+                      placky, nebo kuličky (těsto se na ruce docela lepí) a dáme na pánev. Pokud máte nepřilnavou, klidně můžete
+                      na sucho, pokud máte jinou, tak si tam dejte kapičku olivového oleje, ale stačí fakt trošička. Opékáme z
+                      obou stran na středním plameni, já jsem to dělala z každé strany cca pět minut. Placky by hlavně měly držet
+                      pohromadě a z obou stran být opečené dozlatova. Servírovat můžete jen tak, nebo posypat na jemno nastrouhaným
+                      veganským sýrem, anebo použít veganskou zakysanku. Dá se to použít i jako příloha samozřejmě, pokud máte
+                      větší hlad
+      
+                  </p>
+              </div>
+          </article>
+      </div>
+      
+      <div class="col-md-6">
+          <article id="recept-18" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/18.jpg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Čočkový salát s cibulí a cherry rajčátky</h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>500 g špagety</li>
+                      <li>3 stroužeky česnek</li>
+                      <li>1 1/2 hrnku cherry rajčátek pokrájených na půlky</li>
+                      <li>2 3/4 hrnku zeleninového vývaru</li>
+                      <li>2 lžíce šťávy z citronu</li>
+                      <li>1/4 lžičky chilli</li>
+                      <li>sůl, pepř</li>
+                  </ul>
+                  <p>
+                      Troubu předehřejeme na 180°C.Česnek dáme do alobalu, zakapeme olivovým olejem (1 lžíce) a zabalíme. Cibuli nakrájíme na proužky.
+                      Na plech dáme pečící papír, položíme česnek, cibuli a rajčátka a pečeme cca 20-30 minut.Po upečení česnek
+                      opatrně otevřeme a necháme vystydnout. Po vystydnutí ho vymáčkneme a rozděláme na menší kousky.V hrnci uvaříme
+                      vývar, zeleninu vyndáme a necháme pouze vodu, do té dáme čočku, zakryjeme a na mírném plameni vaříme cca
+                      25-30 minut, dokud nezměkne. Poté slijeme.Čočku promícháme s pečenou směsí, zalijeme 2 lžícemi olivového
+                      oleje, citronovou šťávou, přidáme sůl, pepř a chilli a ještě jednou důkladně promícháme.
+      
+                  </p>
+              </div>
+          </article>
+      </div>
+      
+      <div class="col-md-6">
+          <article id="recept-19" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/19.jpg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Rajčatová bruschetta</h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>Rajčatová bruschetta</li>
+                      <li>400g rajčat</li>
+                      <li>2 lžíce olivového oleje</li>
+                      <li>Velká hrst čerstvé bazalky</li>
+                      <li>Bageta</li>
+                  </ul>
+                  <p>
+                      Rajčata pokrájíme na šestiny. Pokrájená rajčata dáme do mísy, zakápneme olejem, přidáme vymačkaný česnek, a nahrubo posekané
+                      lístky bazalky. Dosolíme, opepříme podle chuti, opatrně zamícháme a dáme zhruba na hodinu uležet do lednice.
+                      Bagetu pokrájíme na plátky a jednotlivé plátky na sucho opečeme dokřupava na pánvi. Krajíček bagety položíme
+                      na talíř, lžící naneseme bruschettu a zakápneme olivovým olejem, případně balzamikem.
+                  </p>
+              </div>
+          </article>
+      </div>
+      
+      <div class="col-md-6">
+          <article id="recept-20" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/20.jpg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Rajčatovo-okurkový salát s avokádem</h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>3 rajčata (Roma jsou na tohle nejlepší)</li>
+                      <li>1 salátová okurka</li>
+                      <li>Šťáva z půlky limetky</li>
+                      <li>1 červená cibule</li>
+                      <li>olivový olej</li>
+                      <li>1 lžička soli</li>
+                      <li>pepř </li>
+                  </ul>
+                  <p>
+                      Rajčata nakrájíme na kostky, okurku na půlkolečka, cibuli na plátky, avokádo nakrájíme na kostky a vše dáme do mísy. Zakápneme
+                      limetkovou šťávou, aby avokádo nezhnědlo. Zalijeme olivovým olejem, klidně na něm nešetřete, přidáme lžičku
+                      soli a opepříme podle chuti. Vše promícháme a servírujeme.
+      
+                  </p>
+              </div>
+          </article>
+      </div>
+      
+      <div class="col-md-6">
+          <article id="recept-21" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/21.jpg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Hrášková polévka</h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>Hrášek – 500 g</li>
+                      <li>Kuř. Vývar – 500 ml</li>
+                      <li>Máslo – 25 g </li>
+                      <li>Česnek – 1 stroužek</li>
+                      <li>Smetana ke šlehání </li>
+                  </ul>
+                  <p>
+                      V polévkovém hrnci rozehřejte máslo, stroužek česneku oloupejte a prolistujte do másla. Minutu až dvě poduste, vsypte všechen
+                      hrášek a další minutu až dvě opékejte. Zalijte horkým kuřecím vývarem, povařte do změknutí (zhruba 5 minut)
+                      a mixérem rozmixujte dohladka. Podle chuti přidejte smetanu a podávejte.
+      
+      
+                  </p>
+              </div>
+          </article>
+      </div>
+      
+      <div class="col-md-6">
+          <article id="recept-22" class="recept bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <img src="obrazky/22.jpg" alt="fotka receptu" />
+              <div class="my-3 py-3">
+                  <h2 class="display-5">Smetanové těstoviny s nivou. </h2>
+                  <h3>Nákupní seznam:</h3>
+                  <ul>
+                      <li>těstoviny</li>
+                      <li>niva</li>
+                      <li>pomazánkové máslo </li>
+                      <li>pepř</li>
+                      <li>bazalka</li>
+                  </ul>
+                  <p>
+                      Během toho, co se těstoviny vaří, smíchejte pomazánkové máslo s nastrouhanou nivou, bazalkou a špetkou pepře. Horké těstoviny
+                      poté přelijte připravenou směsí a dobře promíchejte. Máslo s nivou se v horkých těstovinách pěkně rozpustí
+                      a vytvoří chutnou omáčku. Pro ty, kteří mají rádi pálivější chutě, se hodí omáčku doplnit o chilli.
+      
+                  </p>
+              </div>
+          </article>
+      </div>
+      
+    
   </div>
 
   <footer class="container py-5">
@@ -351,6 +884,7 @@
   </script>
 
   <script src="index.js"></script>
+  <script src="filtrovani.js"></script>
 </body>
 
 </html>
