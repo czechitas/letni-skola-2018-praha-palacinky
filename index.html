@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../../../favicon.ico">
+
+  <title>Blesková kuchařka</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+  <link rel="icon" type="image/png" href="pancakes-16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="pancakes-32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="pancakes-96.png" sizes="96x96">
+
+  <!-- Custom styles for this template -->
+  <link href="product.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="site-header sticky-top py-1">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="py-2" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
+          <path d="M144.4 159.8v-15.9a79.9 79.9 0 0 1 156.1-24l3.5 39.9H144.4z" fill="#9e005d" />
+          <circle cx="272" cy="135.9" r="24" fill="#ff1d25" />
+          <path d="M244.2 66.5a79.9 79.9 0 0 0-99.8 77.5v15.8H184v-15.9a80 80 0 0 1 60.2-77.4z" fill="#ff7bac" />
+          <g fill="#ff1d25">
+            <circle cx="320" cy="135.9" r="24" />
+            <circle cx="368.1" cy="135.9" r="24" />
+          </g>
+          <path d="M444.1 400.1H68a20 20 0 0 1 0-40H444a20 20 0 0 1 0 40z" fill="#fbb03b" />
+          <path d="M444.1 361h-48a19.8 19.8 0 1 1 0 39.6h48a19.8 19.8 0 1 0 0-39.6z" fill="#fcc062" />
+          <path d="M71.9 361h48a19.8 19.8 0 1 0 0 39.6h-48a19.8 19.8 0 1 1 0-39.6z" fill="#ae7418" />
+          <path d="M444.1 360H68a20 20 0 0 1 0-40H444a20 20 0 0 1 0 40z" fill="#fbb03b" />
+          <path d="M444.1 320.4h-48c11 0 20 9.2 20 20.3 0 11-9 20.3-20 20.3h48a20.3 20.3 0 1 0 0-40.7z" fill="#fcc062" />
+          <path d="M71.9 320.4h48c-11 0-20 9.2-20 20.3 0 11 9 20.3 20 20.3h-48a20.3 20.3 0 1 1 0-40.7z" fill="#ae7418" />
+          <path d="M444.1 320H68a20 20 0 0 1 0-40H444a20 20 0 0 1 0 40z" fill="#fbb03b" />
+          <path d="M444.1 280.7h-48a19.8 19.8 0 1 1 0 39.7h48a19.8 19.8 0 1 0 0-39.7z" fill="#fcc062" />
+          <path d="M71.9 280.7h48a19.8 19.8 0 1 0 0 39.7h-48a19.8 19.8 0 1 1 0-39.7z" fill="#ae7418" />
+          <path d="M444.1 280H68a20 20 0 0 1 0-40H444a20 20 0 0 1 0 40z" fill="#fbb03b" />
+          <path d="M444.1 240h-48c11 0 20 9.4 20 20.4 0 11-9 20.3-20 20.3h48c11 0 20-9.2 20-20.3 0-11-9-20.3-20-20.3z" fill="#fcc062"
+          />
+          <path d="M71.9 240h48c-11 0-20 9.4-20 20.4 0 11 9 20.3 20 20.3h-48c-11 0-20-9.2-20-20.3 0-11 9-20.3 20-20.3z" fill="#ae7418"
+          />
+          <path d="M444.1 240H68a20 20 0 0 1 0-40H444a20 20 0 0 1 0 40z" fill="#fbb03b" />
+          <path d="M444.1 240H68a20 20 0 0 1 0-40H444a20 20 0 0 1 0 40z" fill="#fbb03b" />
+          <path d="M444.1 200.5h-48a19.8 19.8 0 1 1 0 39.6h48a19.8 19.8 0 1 0 0-39.6z" fill="#fcc062" />
+          <path d="M71.9 200.5h48a19.8 19.8 0 1 0 0 39.6h-48a19.8 19.8 0 1 1 0-39.6z" fill="#ae7418" />
+          <path d="M456.1 448.2H56a48 48 0 0 1-48-48h496.3a48 48 0 0 1-48 48z" fill="#bdccd4" />
+          <path d="M440.1 400.6c0 26.1-21.5 48-48 48h64c26.6 0 48-21.9 48-48h-64z" fill="#cad6dd" />
+          <path d="M71.9 400.6c0 23 21.5 48 48 48h-64c-26.6 0-48-25-48-48h64z" fill="#8e999f" />
+          <path d="M444.1 160H69c-10.5 0-20 7.5-21 17.9a20 20 0 0 0 19.9 22h56a28 28 0 0 1 28 28.1v22.4c0 15.2 11.4 28.8 26.5 29.6a28 28 0 0 0 29.6-28v-24a28 28 0 0 1 28-28h59.4c13.6 0 24.6 11 24.6 24.6v7.4a24 24 0 1 0 48 0v-7.4c0-13.6 11.1-24.6 24.7-24.6H443c10.5 0 20-7.6 21-18a20 20 0 0 0-19.9-22z"
+            fill="#c27428" />
+          <g fill="#754c24">
+            <path d="M191.3 228v24c0 12.7-8.1 23.3-19.7 26.7 2.1.7 3.9 1.2 6.2 1.3 16.1.8 29.2-12 29.2-28v-24c0-15.5 13.5-27.5 29-27.5h-16c-15.5 0-28.7 12-28.7 27.5zM351.9 224.6v7.4c0 10.4-6.6 19.2-16 22.5 2.6 1 5 1.5 7.8 1.5a23.8 23.8 0 0 0 23.8-24v-7.4a24.7 24.7 0 0 1 25.2-24.1h-16a24.4 24.4 0 0 0-24.8 24.1zM444.1 159.8h-16a20.3 20.3 0 0 1 20 22.4 21 21 0 0 1-21.1 18.3h16a21 21 0 0 0 21-18.3c1.2-12-8.1-22.4-19.9-22.4z"
+            />
+          </g>
+          <path d="M224.7 231.7h79.2v15.6h-79.2zM232 79.5h15.6v15.6H232zM191.3 87.9H208v15.6h-16.7zM208 104.5h16.7v15.6H208z"
+          />
+          <path d="M469.2 392.3a27.7 27.7 0 0 0-5.8-32.2 27.7 27.7 0 0 0 0-40 27.7 27.7 0 0 0 .2-39.8 27.2 27.2 0 0 0 .1-40.8c5.1-5 8.3-11.9 8.4-19.5h.1c0-8-3.5-15.1-9-20.2a27 27 0 0 0 8.6-17 28 28 0 0 0-27.7-30.7h-48.6a31.9 31.9 0 0 0-51.4-37 31.8 31.8 0 0 0-39.8-6.8A88 88 0 0 0 136 144v8.1H69c-14.8 0-27.4 11-28.8 25a28 28 0 0 0 8.3 22.9 27.7 27.7 0 0 0 0 40 27.8 27.8 0 0 0 0 40 27.7 27.7 0 0 0 0 40 27.7 27.7 0 0 0 0 40.1 27.7 27.7 0 0 0-5.6 32.2H0v7.8A56 56 0 0 0 55.9 456H456A56 56 0 0 0 512 400v-7.8h-42.8zM368 119.7a16.2 16.2 0 1 1 0 32.5 16.2 16.2 0 0 1 0-32.5zm-48 0a16.2 16.2 0 1 1 0 32.5 16.2 16.2 0 0 1 0-32.5zM288.1 136a16.2 16.2 0 1 1-32.4 0 16.2 16.2 0 0 1 32.4 0zm-136.5 8c0-2.7.2-5.4.5-8h16.2v-15.7h-12.7a72.4 72.4 0 0 1 130.8-12.6 31.9 31.9 0 0 0-41.8 44.6h-29.4v-8h-15.6v8h-48v-8.3zm-96 34.8c.6-6.1 6.5-11 13.3-11h375.1a12.2 12.2 0 0 1 12.2 13.5c-.6 6.2-6.5 11-13.3 11h-50.3c-17.9 0-32.4 14.5-32.4 32.4v7.4a16.2 16.2 0 0 1-32.4 0v-7.4c0-17.9-14.6-32.4-32.5-32.4H236c-19.8 0-35.9 16-35.9 35.8v24a20 20 0 0 1-21.3 20.2c-10.5-.6-19-10.3-19-21.8V228c0-19.8-16.1-35.8-35.9-35.8h-56a12.2 12.2 0 0 1-12.2-13.5zm0 121.3c0-6.7 5.4-12.1 12.2-12.1h76v-15.7H68a12.2 12.2 0 0 1 0-24.4h68v-15.6H68a12.2 12.2 0 0 1 0-24.4h56c11.1 0 20.2 9 20.2 20.2v22.4A36.7 36.7 0 0 0 180 288a36 36 0 0 0 35.8-35.8V228c0-11.1 9-20.2 20.2-20.2h59.4c9.3 0 16.8 7.6 16.8 16.8v7.4a31.9 31.9 0 0 0 63.7 0v-7.4c0-9.2 7.6-16.8 16.8-16.8h52c6.2 0 11.8 5.4 11.9 12h-.2a12 12 0 0 1-12.3 12h-60v15.6h60c7 0 13 5.8 13 12.4 0 6.6-6.1 12.6-13 12.6H216.3V288h227.8a12 12 0 0 1 12.2 12c0 6.8-5.4 12.2-12.2 12.2H68c-6.8 0-12.2-5.4-12.2-12.2zm0 40c0-6.6 5.4-12.1 12.2-12.1H444a12.2 12.2 0 0 1 0 24.4H68c-6.8 0-12.2-5.5-12.2-12.2zm0 40.1c0-6.7 5.4-12.2 12.2-12.2H444a12.2 12.2 0 0 1 0 24.4H68c-6.8 0-12.2-5.5-12.2-12.2zM456 440.3H56c-19.5 0-35.9-14-39.5-32.4h479.2a40.3 40.3 0 0 1-39.5 32.4z"
+          />
+        </svg>
+      </a>
+      <a class="py-2 d-none d-md-inline-block" href="#recepty">Recepty</a>
+      <!-- <a class="py-2 d-none d-md-inline-block" href="#">Tým</a> -->
+    </div>
+  </nav>
+
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" style="background: linear-gradient(to top right, rgba(255,255,255,0.5), rgba(255,255,255,0.75)), url('rachel-park-366508-unsplash.jpg') no-repeat center center; background-size: cover, cover;">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 font-weight-normal">Blesková kuchařka</h1>
+      <p class="lead font-weight-normal">Vyber suroviny a doporučíme ti vhodné recepty</p>
+      <a class="btn btn-outline-success" href="#vyberSurovinyBlock">Mám hlad</a>
+    </div>
+  </div>
+
+  <div id="vyberSurovinyBlock"></div>
+
+  <form class="m-5" id="formSuroviny">
+    <h2>Vyber suroviny</h2>
+
+    <div class="d-flex justify-content-around">
+      <label class="surovina d-flex justify-content-center align-items-center p-3 m-2 text-center">
+        <div>
+          <div><img src="suroviny/vejce.svg" height="75" /></div>
+          <strong>Vejce</strong>
+          <input type="checkbox" name="suroviny" value="vejce"/>
+        </div>
+      </label>
+      <label class="surovina d-flex justify-content-center align-items-center p-3 m-2 text-center">
+        <div>
+          <div><img src="suroviny/MLEKO.svg" height="75" /></div>
+          <strong>Mléko</strong>
+          <input type="checkbox" name="suroviny" value="MLEKO"/>
+        </div>
+      </label>
+      <label class="surovina d-flex justify-content-center align-items-center p-3 m-2 text-center">
+        <div>
+          <div><img src="suroviny/mouka.svg" height="75" /></div>
+          <strong>Mouka</strong>
+          <input type="checkbox" name="suroviny" value="mouka"/>
+        </div>
+      </label>
+    </div>
+    <div class="d-flex justify-content-around">
+      <label class="surovina d-flex justify-content-center align-items-center p-3 m-2 text-center">
+        <div>
+          <div><img src="suroviny/zelenina.svg" height="75" /></div>
+          <strong>Zelenina</strong>
+          <input type="checkbox" name="suroviny" value="zelenina"/>
+        </div>
+      </label>
+      <label class="surovina d-flex justify-content-center align-items-center p-3 m-2 text-center">
+        <div>
+          <div><img src="suroviny/brambory.svg" height="50" /></div>
+          <strong>Brambory</strong>
+          <input type="checkbox" name="suroviny" value="brambory"/>
+        </div>
+      </label>
+      <label class="surovina d-flex justify-content-center align-items-center p-3 m-2 text-center">
+        <div>
+          <div><img src="suroviny/testoviny.svg" height="75" /></div>
+          <strong>Těstoviny</strong>
+          <input type="checkbox" name="suroviny" value="testoviny"/>
+        </div>
+      </label>
+    </div>
+    <div class="d-flex justify-content-around">
+      <label class="surovina d-flex justify-content-center align-items-center p-3 m-2 text-center">
+        <div>
+          <div><img src="suroviny/kure.svg" height="75" /></div>
+          <strong>Kuře</strong>
+          <input type="checkbox" name="suroviny" value="kure"/>
+        </div>
+      </label>
+      <label class="surovina d-flex justify-content-center align-items-center p-3 m-2 text-center">
+        <div>
+          <div><img src="suroviny/prase.svg" height="75" /></div>
+          <strong>Prase</strong>
+          <input type="checkbox" name="suroviny" value="prase"/>
+        </div>
+      </label>
+      <label class="surovina d-flex justify-content-center align-items-center p-3 m-2 text-center">
+        <div>
+          <div><img src="suroviny/syr.svg" height="75" /></div>
+          <strong>Sýr</strong>
+          <input type="checkbox" name="suroviny" value="syr"/>
+        </div>
+      </label>
+    </div>
+    <div class="d-flex justify-content-around">
+      <label class="surovina d-flex justify-content-center align-items-center p-3 m-2 text-center">
+        <div>
+          <div><img src="suroviny/smetana.svg" height="75" /></div>
+          <strong>Smetana</strong>
+          <input type="checkbox" name="suroviny" value="smetana"/>
+        </div>
+      </label>
+      <label class="surovina d-flex justify-content-center align-items-center p-3 m-2 text-center">
+        <div>
+          <div><img src="suroviny/ryze.svg" height="75" /></div>
+          <strong>Rýže</strong>
+          <input type="checkbox" name="suroviny" value="ryze"/>
+        </div>
+      </label>
+    </div>
+
+  </form>
+
+
+  <div id="recepty"></div>
+
+  <div class="m-5">
+    <h2>Recepty pro tebe</h2>
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-6">
+      <div class="bg-dark my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Another headline</h2>
+          <p class="lead">And an even wittier subheading.</p>
+        </div>
+        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5">Another headline</h2>
+          <p class="lead">And an even wittier subheading.</p>
+        </div>
+        <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="bg-light my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5">Another headline</h2>
+          <p class="lead">And an even wittier subheading.</p>
+        </div>
+        <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="bg-primary my-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Another headline</h2>
+          <p class="lead">And an even wittier subheading.</p>
+        </div>
+        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="container py-5">
+    <div class="row">
+      <div class="col-12 col-md">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 512 512">
+          <path d="M144.4 159.8v-15.9a79.9 79.9 0 0 1 156.1-24l3.5 39.9H144.4z" fill="#9e005d" />
+          <circle cx="272" cy="135.9" r="24" fill="#ff1d25" />
+          <path d="M244.2 66.5a79.9 79.9 0 0 0-99.8 77.5v15.8H184v-15.9a80 80 0 0 1 60.2-77.4z" fill="#ff7bac" />
+          <g fill="#ff1d25">
+            <circle cx="320" cy="135.9" r="24" />
+            <circle cx="368.1" cy="135.9" r="24" />
+          </g>
+          <path d="M444.1 400.1H68a20 20 0 0 1 0-40H444a20 20 0 0 1 0 40z" fill="#fbb03b" />
+          <path d="M444.1 361h-48a19.8 19.8 0 1 1 0 39.6h48a19.8 19.8 0 1 0 0-39.6z" fill="#fcc062" />
+          <path d="M71.9 361h48a19.8 19.8 0 1 0 0 39.6h-48a19.8 19.8 0 1 1 0-39.6z" fill="#ae7418" />
+          <path d="M444.1 360H68a20 20 0 0 1 0-40H444a20 20 0 0 1 0 40z" fill="#fbb03b" />
+          <path d="M444.1 320.4h-48c11 0 20 9.2 20 20.3 0 11-9 20.3-20 20.3h48a20.3 20.3 0 1 0 0-40.7z" fill="#fcc062" />
+          <path d="M71.9 320.4h48c-11 0-20 9.2-20 20.3 0 11 9 20.3 20 20.3h-48a20.3 20.3 0 1 1 0-40.7z" fill="#ae7418" />
+          <path d="M444.1 320H68a20 20 0 0 1 0-40H444a20 20 0 0 1 0 40z" fill="#fbb03b" />
+          <path d="M444.1 280.7h-48a19.8 19.8 0 1 1 0 39.7h48a19.8 19.8 0 1 0 0-39.7z" fill="#fcc062" />
+          <path d="M71.9 280.7h48a19.8 19.8 0 1 0 0 39.7h-48a19.8 19.8 0 1 1 0-39.7z" fill="#ae7418" />
+          <path d="M444.1 280H68a20 20 0 0 1 0-40H444a20 20 0 0 1 0 40z" fill="#fbb03b" />
+          <path d="M444.1 240h-48c11 0 20 9.4 20 20.4 0 11-9 20.3-20 20.3h48c11 0 20-9.2 20-20.3 0-11-9-20.3-20-20.3z" fill="#fcc062"
+          />
+          <path d="M71.9 240h48c-11 0-20 9.4-20 20.4 0 11 9 20.3 20 20.3h-48c-11 0-20-9.2-20-20.3 0-11 9-20.3 20-20.3z" fill="#ae7418"
+          />
+          <path d="M444.1 240H68a20 20 0 0 1 0-40H444a20 20 0 0 1 0 40z" fill="#fbb03b" />
+          <path d="M444.1 240H68a20 20 0 0 1 0-40H444a20 20 0 0 1 0 40z" fill="#fbb03b" />
+          <path d="M444.1 200.5h-48a19.8 19.8 0 1 1 0 39.6h48a19.8 19.8 0 1 0 0-39.6z" fill="#fcc062" />
+          <path d="M71.9 200.5h48a19.8 19.8 0 1 0 0 39.6h-48a19.8 19.8 0 1 1 0-39.6z" fill="#ae7418" />
+          <path d="M456.1 448.2H56a48 48 0 0 1-48-48h496.3a48 48 0 0 1-48 48z" fill="#bdccd4" />
+          <path d="M440.1 400.6c0 26.1-21.5 48-48 48h64c26.6 0 48-21.9 48-48h-64z" fill="#cad6dd" />
+          <path d="M71.9 400.6c0 23 21.5 48 48 48h-64c-26.6 0-48-25-48-48h64z" fill="#8e999f" />
+          <path d="M444.1 160H69c-10.5 0-20 7.5-21 17.9a20 20 0 0 0 19.9 22h56a28 28 0 0 1 28 28.1v22.4c0 15.2 11.4 28.8 26.5 29.6a28 28 0 0 0 29.6-28v-24a28 28 0 0 1 28-28h59.4c13.6 0 24.6 11 24.6 24.6v7.4a24 24 0 1 0 48 0v-7.4c0-13.6 11.1-24.6 24.7-24.6H443c10.5 0 20-7.6 21-18a20 20 0 0 0-19.9-22z"
+            fill="#c27428" />
+          <g fill="#754c24">
+            <path d="M191.3 228v24c0 12.7-8.1 23.3-19.7 26.7 2.1.7 3.9 1.2 6.2 1.3 16.1.8 29.2-12 29.2-28v-24c0-15.5 13.5-27.5 29-27.5h-16c-15.5 0-28.7 12-28.7 27.5zM351.9 224.6v7.4c0 10.4-6.6 19.2-16 22.5 2.6 1 5 1.5 7.8 1.5a23.8 23.8 0 0 0 23.8-24v-7.4a24.7 24.7 0 0 1 25.2-24.1h-16a24.4 24.4 0 0 0-24.8 24.1zM444.1 159.8h-16a20.3 20.3 0 0 1 20 22.4 21 21 0 0 1-21.1 18.3h16a21 21 0 0 0 21-18.3c1.2-12-8.1-22.4-19.9-22.4z"
+            />
+          </g>
+          <path d="M224.7 231.7h79.2v15.6h-79.2zM232 79.5h15.6v15.6H232zM191.3 87.9H208v15.6h-16.7zM208 104.5h16.7v15.6H208z"
+          />
+          <path d="M469.2 392.3a27.7 27.7 0 0 0-5.8-32.2 27.7 27.7 0 0 0 0-40 27.7 27.7 0 0 0 .2-39.8 27.2 27.2 0 0 0 .1-40.8c5.1-5 8.3-11.9 8.4-19.5h.1c0-8-3.5-15.1-9-20.2a27 27 0 0 0 8.6-17 28 28 0 0 0-27.7-30.7h-48.6a31.9 31.9 0 0 0-51.4-37 31.8 31.8 0 0 0-39.8-6.8A88 88 0 0 0 136 144v8.1H69c-14.8 0-27.4 11-28.8 25a28 28 0 0 0 8.3 22.9 27.7 27.7 0 0 0 0 40 27.8 27.8 0 0 0 0 40 27.7 27.7 0 0 0 0 40 27.7 27.7 0 0 0 0 40.1 27.7 27.7 0 0 0-5.6 32.2H0v7.8A56 56 0 0 0 55.9 456H456A56 56 0 0 0 512 400v-7.8h-42.8zM368 119.7a16.2 16.2 0 1 1 0 32.5 16.2 16.2 0 0 1 0-32.5zm-48 0a16.2 16.2 0 1 1 0 32.5 16.2 16.2 0 0 1 0-32.5zM288.1 136a16.2 16.2 0 1 1-32.4 0 16.2 16.2 0 0 1 32.4 0zm-136.5 8c0-2.7.2-5.4.5-8h16.2v-15.7h-12.7a72.4 72.4 0 0 1 130.8-12.6 31.9 31.9 0 0 0-41.8 44.6h-29.4v-8h-15.6v8h-48v-8.3zm-96 34.8c.6-6.1 6.5-11 13.3-11h375.1a12.2 12.2 0 0 1 12.2 13.5c-.6 6.2-6.5 11-13.3 11h-50.3c-17.9 0-32.4 14.5-32.4 32.4v7.4a16.2 16.2 0 0 1-32.4 0v-7.4c0-17.9-14.6-32.4-32.5-32.4H236c-19.8 0-35.9 16-35.9 35.8v24a20 20 0 0 1-21.3 20.2c-10.5-.6-19-10.3-19-21.8V228c0-19.8-16.1-35.8-35.9-35.8h-56a12.2 12.2 0 0 1-12.2-13.5zm0 121.3c0-6.7 5.4-12.1 12.2-12.1h76v-15.7H68a12.2 12.2 0 0 1 0-24.4h68v-15.6H68a12.2 12.2 0 0 1 0-24.4h56c11.1 0 20.2 9 20.2 20.2v22.4A36.7 36.7 0 0 0 180 288a36 36 0 0 0 35.8-35.8V228c0-11.1 9-20.2 20.2-20.2h59.4c9.3 0 16.8 7.6 16.8 16.8v7.4a31.9 31.9 0 0 0 63.7 0v-7.4c0-9.2 7.6-16.8 16.8-16.8h52c6.2 0 11.8 5.4 11.9 12h-.2a12 12 0 0 1-12.3 12h-60v15.6h60c7 0 13 5.8 13 12.4 0 6.6-6.1 12.6-13 12.6H216.3V288h227.8a12 12 0 0 1 12.2 12c0 6.8-5.4 12.2-12.2 12.2H68c-6.8 0-12.2-5.4-12.2-12.2zm0 40c0-6.6 5.4-12.1 12.2-12.1H444a12.2 12.2 0 0 1 0 24.4H68c-6.8 0-12.2-5.5-12.2-12.2zm0 40.1c0-6.7 5.4-12.2 12.2-12.2H444a12.2 12.2 0 0 1 0 24.4H68c-6.8 0-12.2-5.5-12.2-12.2zM456 440.3H56c-19.5 0-35.9-14-39.5-32.4h479.2a40.3 40.3 0 0 1-39.5 32.4z"
+          />
+        </svg>
+        <small class="d-block mb-3 text-muted">Palačinky &copy; 2017-2018</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Recepty</h5>
+        <ul class="list-unstyled text-small">
+          <li>
+            <a class="text-muted" href="#">Cool stuff</a>
+          </li>
+          <li>
+            <a class="text-muted" href="#">Random feature</a>
+          </li>
+          <li>
+            <a class="text-muted" href="#">Team feature</a>
+          </li>
+          <li>
+            <a class="text-muted" href="#">Stuff for developers</a>
+          </li>
+          <li>
+            <a class="text-muted" href="#">Another one</a>
+          </li>
+          <li>
+            <a class="text-muted" href="#">Last time</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Suroviny</h5>
+        <ul class="list-unstyled text-small">
+          <li>
+            <a class="text-muted" href="#">Resource</a>
+          </li>
+          <li>
+            <a class="text-muted" href="#">Resource name</a>
+          </li>
+          <li>
+            <a class="text-muted" href="#">Another resource</a>
+          </li>
+          <li>
+            <a class="text-muted" href="#">Final resource</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>O nás</h5>
+        <ul class="list-unstyled text-small">
+          <li>
+            <a class="text-muted" href="#">Team</a>
+          </li>
+          <li>
+            <a class="text-muted" href="#">Locations</a>
+          </li>
+          <li>
+            <a class="text-muted" href="#">Privacy</a>
+          </li>
+          <li>
+            <a class="text-muted" href="#">Terms</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script src="vendor/holder.min.js"></script>
+  <script>
+    Holder.addTheme('thumb', {
+      bg: '#55595c',
+      fg: '#eceeef',
+      text: 'Thumbnail'
+    });
+  </script>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
